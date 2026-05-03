@@ -10,8 +10,6 @@ Abstract: [PENDIENTE] - Poner un resumen del proyecto de un parrafo y pocas orac
 
 En esta seccion vamos a planear que es lo que se tiene que hacer, ademas de asignar tareas individuales a cada quien. Usaremos checkboxes de markdown para llevar control de que tareas se han terminado y cuales siguien pendientes. Para marcar una como completado, simplemente agreguen una "x" dentro de los corchetes. Ademas, se agregra una seccion de implementaciones **extra**, que estaria chido agregar al proyecto, aunque no son escenciales.
 
-### Extra
-
 ### Tareas
 
 Lo primero que tenemos que hacer es entender la base de datos; saber exactamente que informacion contiene. Para esto, hay que analisar cada una de las tablas que estan contenidas en ella. Esto implica saber que es lo que se mide en cada una de las columnas; cantidad de tiros? cantidad de goles? cantidad de pases? alguna estadistica mas rebuscada?
@@ -38,6 +36,38 @@ Cada quien planteara uno de estos analisis. Ya veremos si hacemos uno, varios u 
 Una vez que definamos el/los enfoque(s) de nuestro(s) analisis, podremos proceder a completar la [Libreta_resumen_bd](/SCRIPTS/Libreta_resumen_bd.ipynb) al especificar que columnas son de nuestro interes o no. Esto con el objetivo de modificar las queries que hagamos a la base de datos, asi solo traernos la informacion que nos sea relevante.
 
 A partir de aqui, lo que hagamos dependera de el enfoque del analisis, por lo cual ya no podemos planear por adelantado.
+
+#### Ideas
+
+Hay que hacer minimo 8 graficos diferentes, a continuacion ponemos una lista de aquellos que ya tenemos cubiertos:
+
+- Heatmap
+- Bubble map
+
+A continuacion aquellos que no hemos cubierto pero que podrian ser una buena opcion:
+
+- Bar chart
+- Stacked bar chart
+- Pie chart
+- Ring chart
+- Boxplot
+- time series
+- Histogram
+- Violin plot
+- Waffle plot
+- Bubble plot
+- Styled table
+- scatter plot
+- circular barplot
+- Radar chart
+
+
+Ideas de como implementar los graficos cubiertos:
+
+- Heatmap de matriz de correlacion entre attributos de jugador y su overall rating
+- Bubble map que indique de donde que paises hay mas jugadores en los equipos de alguna liga
+- 
+
 
 ### Extras
 
@@ -77,8 +107,6 @@ Karim:
         - `League`
 - [ ] Plantear una direccion del analisis.
 
-
-
 ## Vinculos a archivos importantes dentro de repositporio
 
 Aqui pondre algunos hipervinculos a archivos importantes dentro del repositorio
@@ -86,9 +114,9 @@ Aqui pondre algunos hipervinculos a archivos importantes dentro del repositorio
 - [Libreta_sqlite_basics](SCRIPTS/Libreta_sqlite_basics.ipynb): Libreta con un tutorial basico de como leer las tablas del archivo .sqlite y pasarlas a un dataframe + un poco de teoria
 - [Libreta_resumen_bd](SCRIPTS/Libreta_resumen_bd.ipynb): Libreta resumen de la base de datos.
 
-
 ## Tutoriales, articulos, documentacion relevante
 
+- La base de datos en kaggle es [esta](https://www.kaggle.com/datasets/hugomathien/soccer)
 - Si no saben usar github y git, yo aprendi lo superbasico usando [esta lista de reproduccion](https://www.youtube.com/watch?v=BCQHnlnPusY&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV). Alternativamente, pueden usar los propios [tutoriales de github](https://docs.github.com/en/get-started/start-your-journey/hello-world). O solo preguntenle a un LLM.
 - Para que aprendan a usar la funcion de "issues", solo vean [este video](https://www.youtube.com/watch?v=WMykv2ZMyEQ&list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV&index=4)
 - Como la base de datos es un archivo .sqlite, para aprender lo basico de sqlite yo estoy usando [este recurso](https://www.sqlitetutorial.net/)
