@@ -39,35 +39,29 @@ A partir de aqui, lo que hagamos dependera de el enfoque del analisis, por lo cu
 
 #### Ideas
 
-Hay que hacer minimo 8 graficos diferentes, a continuacion ponemos una lista de aquellos que ya tenemos cubiertos:
+Hay que hacer minimo 8 graficos diferentes, a continuacion ponemos una lista de algunas opciones (marquen adecuadamente si ya se hizo una isntancia de dicho tipo de grafico)
 
-- Heatmap
-- Bubble map
+- [ ] Heatmap
+- [ ] Bubble map
+- [ ] Bar chart
+- [ ] Stacked bar chart
+- [ ] Pie chart
+- [ ] Ring chart
+- [ ] Boxplot
+- [ ] Time series
+- [ ] Histogram
+- [ ] Violin plot
+- [ ] Waffle plot
+- [ ] Bubble plot
+- [ ] Styled table
+- [ ] Scatter plot
+- [ ] Circular barplot
+- [ ] Radar chart
 
-A continuacion aquellos que no hemos cubierto pero que podrian ser una buena opcion:
-
-- Bar chart
-- Stacked bar chart
-- Pie chart
-- Ring chart
-- Boxplot
-- time series
-- Histogram
-- Violin plot
-- Waffle plot
-- Bubble plot
-- Styled table
-- scatter plot
-- circular barplot
-- Radar chart
-
-
-Ideas de como implementar los graficos cubiertos:
+Ideas de implementaciones de algunos graficos:
 
 - Heatmap de matriz de correlacion entre attributos de jugador y su overall rating
-- Bubble map que indique de donde que paises hay mas jugadores en los equipos de alguna liga
-- 
-
+- ~~Bubble map que indique de donde que paises hay mas jugadores en los equipos de alguna liga~~ No se puede, pues en los datos no se registra la nacioalidad de los jugadores.
 
 ### Extras
 
