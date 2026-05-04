@@ -45,7 +45,7 @@ Se me ocurrio plantear una direccion de analisis donde nos enfocaremos en obtene
 
 Nos centraremos en analizar y generar sugerencias del tipo de jugador a scouter, de las formacion a usar, de las mejores formas de identificar un jugador valioso, de los atributos de jugadores que mayor impacto tienen en ganar un partido, etc. El analisis entonces podra incluir observaciones hechas a travez de las diferentes ligas que se incluyen en el dataset.
 
-#### Ideas para graficos
+#### Ideas para analisis
 
 Hay que hacer minimo 8 graficos diferentes, a continuacion ponemos una lista de algunas opciones (marquen adecuadamente si ya se hizo una isntancia de dicho tipo de grafico)
 
@@ -66,10 +66,7 @@ Hay que hacer minimo 8 graficos diferentes, a continuacion ponemos una lista de 
 - [ ] Circular barplot
 - [ ] Radar chart
 
-Ideas de implementaciones de algunos graficos:
-
-- Heatmap de matriz de correlacion entre attributos de jugador y su overall rating
-- ~~Bubble map que indique de donde que paises hay mas jugadores en los equipos de alguna liga~~ No se puede, pues en los datos no se registra la nacioalidad de los jugadores.
+Plantee 20 ideas de analisis que pueden hacer, y los graficos que se usarian para responderlo. Pueden checarlas [aqui](Libreta_planteamiento_de_insights.ipynb). Leeanlo y seleccionen acordemente (recuerden que debe hacer 8 tipos de graficos diferentes minimo).
 
 ### Extras
 
@@ -94,21 +91,26 @@ Ossian:
         - `Team_Attributes`
         - `Country`
         - `League`
-- [ ] Hacer graficos para 4 insights
+- [ ] Preparar los tres dataframes que se usaran para la generacion de graficos
+    - [ ] df_player_latest
+    - [ ] df_match_base
+    - [ ] df_tean_match
+- [ ] Hacer los 4 analisis que me tocan:
+    - [ ] 
+    - [ ]
+    - [ ]
+    - [ ]
 
 Estefania:
 
-- [ ] Plantear una direccion del analisis.
 - [ ] Hacer graficos para 2 insights (de preferencia 3 pls)
 
 Ian:
 
-- [ ] Plantear una direccion del analisis.
 - [ ] Hacer graficos para 2 insights (de preferencia 3 pls)
 
 Karim:
 
-- [ ] Plantear una direccion del analisis.
 - [ ] Hacer graficos para 2 insights (de preferencia 3 pls)
 
 ## Vinculos a archivos importantes dentro de repositporio
