@@ -10,7 +10,7 @@ Abstract: [PENDIENTE] - Poner un resumen del proyecto de un parrafo y pocas orac
 
 En esta seccion vamos a planear que es lo que se tiene que hacer, ademas de asignar tareas individuales a cada quien. Usaremos checkboxes de markdown para llevar control de que tareas se han terminado y cuales siguien pendientes. Para marcar una como completado, simplemente agreguen una "x" dentro de los corchetes. Ademas, se agregra una seccion de implementaciones **extra**, que estaria chido agregar al proyecto, aunque no son escenciales.
 
-### Tareas
+### Tareas ---
 
 Lo primero que tenemos que hacer es entender la base de datos; saber exactamente que informacion contiene. Para esto, hay que analisar cada una de las tablas que estan contenidas en ella. Esto implica saber que es lo que se mide en cada una de las columnas; cantidad de tiros? cantidad de goles? cantidad de pases? alguna estadistica mas rebuscada?
 
