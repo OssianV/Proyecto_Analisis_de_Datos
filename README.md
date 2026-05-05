@@ -50,19 +50,20 @@ Nos centraremos en analizar y generar sugerencias del tipo de jugador a scouter,
 Hay que hacer minimo 8 graficos diferentes, a continuacion ponemos una lista de algunas opciones (marquen adecuadamente si ya se hizo una isntancia de dicho tipo de grafico)
 
 - [x] Heatmap
-- [x] Bubble map
+- [x] Bubble plot
 - [x] Bar chart
-- [x] Stacked bar chart
+- [ ] Stacked bar chart
 - [ ] Pie chart
 - [ ] Ring chart
 - [ ] Boxplot
 - [ ] Time series
 - [x] Histogram
+- [x] Ring plot
 - [ ] Violin plot
 - [ ] Waffle plot
 - [ ] Bubble plot
 - [ ] Styled table
-- [x] Scatter plot
+- [ ] Scatter plot
 - [ ] Circular barplot
 - [ ] Radar chart
 
@@ -99,8 +100,8 @@ Ossian:
     - [x] Analisis 1: Idea 01 - Heatmap de correlacion entre atributos de jugadores de campo
     - [x] Analisis 2: Idea 02 - Heatmap de correlacion entre atributos de jugadores porteros
     - [ ] Analisis 3: Idea 03 - Histograma del gap potencial - overall rating
-    - [ ] Analisis 4: Idea 06 - Scatterplot de jugadores con alto potencial y overall todavia moderado
-    - [ ] Analisis 5: Idea 12 - Grafico de barras apiladas de victoria/empate/derrota por formacion
+    - [x] Analisis 4: Grafico de barras de atributos de jugadores con alto potencial y overall jovenes
+    - [ ] Analisis 5: Idea 20 - Grafico de anillo del margen de victoria en los partidos
     - [ ] Analisis 6: Idea 13 - Bubble plot de formaciones: frecuencia vs rendimiento
 
 Estefania:
